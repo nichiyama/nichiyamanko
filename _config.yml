@@ -1,0 +1,18 @@
+title: nichiyamanko Jekyll
+description:
+baseurl: "/nichiyamanko"
+url: "http://nichiyama.github.io"
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+plugins:
+  - github-pages
+  - jekyll-feed
+  - jekyll-org
+
+permalink: /:categories/:short_year-:month-:day/:title
+
+sass:
+  sass_dir: _sass
+  style: compressed
